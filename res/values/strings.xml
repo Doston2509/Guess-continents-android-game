@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GuessContinent</string>
+    <string name="title_activity_details">Guess continent</string>
+    <string name="shutting">So fast! Are you sure?</string>
+
+    <string name="welcome">Wel-come to GUESS CONTINENT game!</string>
+    <string name="introduction">You will be asked to find the country`s located continent.The question will be given randomly. Your score will calculated at the end</string>
+    <string name="myDeailts">I am Doston Hamrakulov. 
+    </string>
+</resources>

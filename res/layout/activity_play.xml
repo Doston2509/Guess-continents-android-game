@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#609ac7"
+    tools:context="doston2509.com.guesscontinent.Play">
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textAlignment="center"
+    android:textStyle="normal"
+    android:layout_marginTop="40px"
+
+    android:text="Question Num: 1"
+    android:id="@+id/questionNum"
+    />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textStyle="normal"
+        android:layout_below="@id/questionNum"
+        android:layout_marginTop="25px"
+        android:text="Your score is 0"
+        android:id="@+id/score"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="normal"
+        android:layout_marginTop="30px"
+        android:layout_below="@id/score"
+        android:id="@+id/question"
+        android:layout_marginLeft="25px"
+        android:text="@string/introduction"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="normal"
+        android:layout_marginTop="20px"
+        android:layout_below="@id/question"
+        android:layout_marginLeft="25px"
+        android:id="@+id/asia"
+        android:text="1. Asia"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="normal"
+        android:layout_marginTop="10px"
+        android:layout_marginLeft="25px"
+        android:layout_below="@id/asia"
+        android:id="@+id/africa"
+        android:text="2. Africa"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="normal"
+        android:layout_marginTop="10px"
+        android:layout_below="@id/africa"
+        android:layout_marginLeft="25px"
+        android:id="@+id/southAmerica"
+        android:text="3. South America"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="normal"
+        android:layout_marginTop="10px"
+        android:layout_below="@id/southAmerica"
+        android:id="@+id/northAmerica"
+        android:layout_marginLeft="25px"
+        android:text="4. North America"
+
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="normal"
+        android:layout_marginTop="10px"
+        android:layout_marginLeft="25px"
+        android:layout_below="@id/northAmerica"
+        android:id="@+id/europa"
+        android:text="5. Europa"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your answer"
+        android:id="@+id/choice"
+        android:layout_below="@id/europa"
+        android:layout_marginTop="30px"
+
+        />
+
+    <Button
+        android:id="@+id/answer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:onClick="onClick"
+        android:text="Check"
+        android:layout_below="@+id/choice"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#405bea"/>
+
+    <Button
+        android:id="@+id/tugat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/answer"
+        android:layout_marginTop="11dp"
+        android:onClick="open"
+        android:background="#405bea"
+        android:text="Finish" />
+
+
+</RelativeLayout>

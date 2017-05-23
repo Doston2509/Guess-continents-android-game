@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4ed184"
+    tools:context="doston2509.com.guesscontinent.Details">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/details"
+        android:textStyle="normal"
+        android:layout_marginLeft="40px"
+        android:layout_marginRight="15px"
+        android:layout_marginTop="35px"
+        android:text="@string/myDeailts"/>
+
+    <Button
+        android:id="@+id/movingBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35px"
+        android:layout_centerVertical="true"
+        android:layout_below="@id/details"
+        android:onClick="onClick"
+        android:background="#29c7aa"
+        android:text="Go back" />
+</RelativeLayout>
